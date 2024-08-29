@@ -1,0 +1,40 @@
+/* PokemonList.module.css */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .card {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 16px;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    text-decoration: none;
+    transform: translateY(-5px);
+  }
+  
+  .image {
+    width: 96px;
+    height: 96px;
+    margin-bottom: 12px;
+  }
+  
+  .name {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
